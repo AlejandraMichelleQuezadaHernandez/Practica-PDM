@@ -1,4 +1,4 @@
-package com.example.practicamoviles // Cambiado para coincidir con la carpeta
+package com.example.practicamoviles
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
