@@ -18,7 +18,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-// ELIMINADO: import androidx.material3.R
+
 
 @Composable
 @Preview
@@ -55,7 +55,6 @@ fun MainScreen() {
                 fontWeight = FontWeight.Bold
             )
 
-            // Asegúrate de que el archivo se llame clima.webp en minúsculas
             Image(
                 painter = painterResource(id = R.drawable.clima),
                 contentDescription = "Icono del clima",
